@@ -4,7 +4,7 @@ Trabalho de conclusão de curso apresentado ao curso de Bacharelado em Sistemas 
 
 Como testar a ferramenta BibManager  <br>
 1- Acesse https://bibmanageruff.netlify.app/ .  <br>
-2- Selecione arquivos bibtex que você possui em artigos/tccs. Caso não tenha, use os arquivos.bib disponíveis em https://drive.google.com/drive/folders/1ViN40BkOWjCjt2ebWoXM-W3uwpEFhW1W?usp=sharing . <br>
+2- Selecione arquivos bibtex que você possui em artigos/tccs.  <br> Foram adicionados aqui no repositório, em uma pasta, arquivos bib de exemplo. Caso prefira, use os arquivos.bib disponíveis em https://drive.google.com/drive/folders/1ViN40BkOWjCjt2ebWoXM-W3uwpEFhW1W?usp=sharing (são os mesmos disponíveis aqui na pasta do github.) <br> 
 3- Use a funcionalidade de detectar duplicatas e verifique o resultado abaixo. <br>
 4- Use a funcionalidade de validar arquivo, veja quais campos não foram preenchidos em suas referências.  <br>
 5- Filtre o bibtex pelo tex. Caso tenha usado os bibtex fornecidos, use o .tex de exemplo contido no drive acima.  <br>
