@@ -1,0 +1,38 @@
+% exemplo.tex — arquivo de exemplo para testar o filtro do BibManager
+%
+% Como usar:
+%   1. Carregue seu arquivo .bib no BibManager
+%   2. Na seção "Filtrar pelo .tex", carregue este arquivo
+%   3. Clique em "Filtrar BibTeX pelo .tex"
+%   4. Apenas as entradas citadas abaixo serão mantidas
+%
+% Substitua as chaves abaixo pelas chaves reais do seu .bib
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[alf]{abntex2cite}
+
+\begin{document}
+
+\section{Introdução}
+Este é um documento de exemplo para demonstrar o filtro do BibManager.
+As chaves usadas nos comandos \verb|\cite{}| abaixo serão extraídas
+e usadas para filtrar seu arquivo \texttt{.bib}.
+
+% Exemplos com diferentes comandos de citação suportados pelo BibManager:
+
+\cite{exemplo_artigo_2022}
+
+De acordo com \textcite{exemplo_livro_2020}, o método é eficaz.
+
+Estudos anteriores \citep{exemplo_conferencia_2021, exemplo_artigo_2019}
+demonstraram resultados similares.
+
+\citet{exemplo_tese_2023} apresentou uma abordagem alternativa.
+
+\section{Conclusão}
+Substitua as chaves acima pelas chaves reais do seu arquivo \texttt{.bib}
+e use este arquivo no filtro do BibManager.
+
+\bibliography{referencias}
+\end{document}
